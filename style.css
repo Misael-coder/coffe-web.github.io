@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200;500&display=swap');
+
+*{
+    font-family: 'Crimson Pro', serif;
+    margin: 0;
+}
+.container{
+    background-image: url(https://images.pexels.com/photos/2642842/pexels-photo-2642842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    
+}
+.barra{
+    height: 39px;
+
+}
+.barra i{
+    font-size: 30px;
+    margin-top: 5px;
+    color: white;
+}
+.barra h3, .barra a {
+  display: inline-block;
+}
+.barra h3{
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    font-size:30px ;
+}
+.barra a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 9px;
+    float: right;
+    font-weight: 20; 
+}
+@media (max-width: 412px) {
+    .barra a {
+      display: none;
+    }
+  }
+  
+.base h1{
+    color: white;
+    font-weight: 5;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.base p{
+    color: white;
+    font-weight: 50;
+    margin-bottom: 10px;
+}
+
+.login{
+    display:flex;
+    flex-direction: column;
+}
+.login .one{
+    float: left;
+    width: 350px;
+    color:white;
+    border: solid 1px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.login input{
+    height: 50px;
+    width: 150px;
+    color: white;
+    margin-bottom: 10px;
+    background: transparent;
+    border:solid 0.1px white;
+    border-radius: 10px;
+    backdrop-filter: blur(15px) brightness(95%);
+}
+
+.login .segundo{
+    float: left;
+    width: 300px;
+    color:white;
+    border: solid 1px;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.imagenes .cofe{
+    width: 383px;
+  display: inline-flex;
+  margin:5px ;
+}
